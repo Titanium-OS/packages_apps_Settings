@@ -36,6 +36,14 @@
         settings:isPreferenceVisible="false"/>
     -->
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:order="3"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.android.settings.titanium.Changelog" />
+
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
@@ -53,6 +61,7 @@
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
 
+    <!-- Emergency info -->
     <Preference
         android:key="emergency_info"
         android:order="14"
