@@ -261,9 +261,13 @@
 
     <!-- Adaptive battery -->
     <string name="battery_tip_smart_battery_summary_custom">Turn on Adaptive Battery</string>
-    <string name="smart_battery_footer_custom">"To extend battery life, Adaptive Battery limits battery for infrequently used apps. Your phone will learn how you use apps over time.
-
-Notifications may be delayed for these apps."</string>
+    <string name="smart_battery_footer_custom">"To extend battery life, Adaptive Battery limits battery for infrequently used apps. Your phone will learn how you use apps over time. Notifications may be delayed for these apps."</string>
     <string name="smart_battery_manager_title_custom">Adaptive Battery</string>
     <string name="smart_battery_title_custom">Use Adaptive Battery</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 </resources>
+
