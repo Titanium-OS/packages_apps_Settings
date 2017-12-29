@@ -122,4 +122,8 @@
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
 
+     <!-- TitaniumOS OTA -->
+    <string name="titanium_ota_title">TitaniumOS Updates</string>
+    <string name="titanium_ota_summary">Get latest build</string>
+
 </resources>
