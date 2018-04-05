@@ -21,4 +21,7 @@
     <string name="titanium_about_info">About us</string>
     <string name="titanium_about_summary">Our introduction and our team</string>
     <string name="titanium_about_info_summary">TitaniumOS is a Custom ROM based on Google Android Open Source Project.This ROM developed with a major focus on system stability and useful features. All this without compromising on the pure Android experience.</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
