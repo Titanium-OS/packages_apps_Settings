@@ -206,4 +206,8 @@
     <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures</string>
 
     <string name="lockscreen_display_title">Lock screen display</string>
+
+    <!-- ROM version -->
+    <string name="rom_version">TitaniumOS version</string>
+    <string name="rom_version_default">Unknown</string>
 </resources>
