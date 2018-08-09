@@ -45,4 +45,8 @@
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
+
+    <!-- ROM version -->
+    <string name="rom_version">TitaniumOS version</string>
+    <string name="rom_version_default">Unknown</string>
 </resources>
