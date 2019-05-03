@@ -180,4 +180,7 @@ public class Settings extends SettingsActivity {
     // TiElements Additions.
     public static class TiElementsSettingsActivity extends SettingsActivity {}
 
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
