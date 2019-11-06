@@ -64,7 +64,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     public boolean isSuggestionComplete(Context context, @NonNull ComponentName component) {
         if (Settings.System.getInt(context.getContentResolver(),
                 Settings.System.ENABLE_SUGGESTIONS, 1) == 0) return true;
-        final String className = component.getClassName();
+        /*final String className = component.getClassName();
         if (className.equals(WallpaperSuggestionActivity.class.getName())) {
             return WallpaperSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(StyleSuggestionActivity.class.getName())) {
@@ -81,8 +81,8 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
             return NightDisplayPreferenceController.isSuggestionComplete(context);
         } else if (className.equals(ZenSuggestionActivity.class.getName())) {
             return ZenOnboardingActivity.isSuggestionComplete(context);
-        }
-        return false;
+        }*/
+        return true;
     }
 
     @Override
