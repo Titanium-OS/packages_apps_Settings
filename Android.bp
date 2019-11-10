@@ -65,6 +65,7 @@ android_library {
         "okhttpcustom",
         "okio",
         "faceunlock_utils",
+        "VendorSupport-preference",
     ],
 
     libs: [
