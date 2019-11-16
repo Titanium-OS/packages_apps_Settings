@@ -149,6 +149,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.titanium.tielements.Elements;
+import com.titanium.tielements.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -288,7 +289,8 @@ public class SettingsGateway {
             // TitaniumOS additions
             Elements.class.getName(),
             LiveDisplaySettings.class.getName(),
-            DarkModeSettingsFragment.class.getName()
+            DarkModeSettingsFragment.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -329,5 +331,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             // TitaniumOS additions
             Settings.TiElementsSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
