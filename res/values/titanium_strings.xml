@@ -16,6 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- TitaniumOS -->
+    <string name="titanium_title" translatable="false">TitaniumOS</string>
+
     <!-- TitaniumOS Version -->
     <string name="titanium_version">TitaniumOS Build</string>
 </resources>
