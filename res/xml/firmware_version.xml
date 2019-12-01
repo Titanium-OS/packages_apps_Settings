@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Titanium Logo -->
+    <PreferenceScreen
+        android:layout="@layout/titanium_header_logo"
+        android:key="titanium_header_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
