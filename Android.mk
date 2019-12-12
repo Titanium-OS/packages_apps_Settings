@@ -51,7 +51,10 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-log-bridge-protos-lite \
     contextualcards \
     settings-logtags \
-    zxing-core-1.7
+    zxing-core-1.7 
+
+LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
+    circularimageview
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -77,6 +80,12 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     contextualcards:libs/contextualcards.aar
+include $(BUILD_MULTI_PREBUILT)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    circularimageview:libs/circularimageview-3.0.2.aar
 include $(BUILD_MULTI_PREBUILT)
 
 # Use the following include to make our test apk.
