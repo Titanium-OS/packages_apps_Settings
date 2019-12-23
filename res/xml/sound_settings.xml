@@ -201,6 +201,12 @@
           android:title="@string/vibrate_on_touch_title"
           settings:keywords="@string/keywords_vibrate_on_touch"/>
 
+        <!-- Enable/Disable Screenshot sound -->
+        <com.titanium.support.preferences.SystemSettingSwitchPreference
+          android:key="screenshot_sound"
+          android:title="@string/screenshot_sound_title"
+          android:defaultValue="false" />
+
         <!-- Dock speaker plays -->
         <DropDownPreference
           android:key="dock_audio_media"
