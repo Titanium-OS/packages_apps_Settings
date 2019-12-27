@@ -179,6 +179,7 @@ public class Settings extends SettingsActivity {
 
     // TiElements Additions.
     public static class TiElementsSettingsActivity extends SettingsActivity {}
+    public static class LockscreenDisplayActivity extends SettingsActivity { /* empty */ }
 
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }

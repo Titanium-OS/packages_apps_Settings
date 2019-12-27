@@ -205,4 +205,5 @@
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures</string>
 
+    <string name="lockscreen_display_title">Lock screen display</string>
 </resources>
