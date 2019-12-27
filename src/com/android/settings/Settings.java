@@ -237,6 +237,7 @@ public class Settings extends SettingsActivity {
 
     // TitaniumOS additions
     public static class TiElementsSettingsActivity extends SettingsActivity {}
+    public static class LockscreenDisplayActivity extends SettingsActivity { /* empty */ }
 
     /**
      * Activity for MediaControlsSettings
