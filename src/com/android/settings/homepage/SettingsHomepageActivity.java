@@ -64,6 +64,9 @@ public class SettingsHomepageActivity extends FragmentActivity {
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
 
         setHomepageContainerPaddingTop();
+        Context context = getApplicationContext();
+
+        mUserManager = context.getSystemService(UserManager.class);
 
         Context context = getApplicationContext();
 
@@ -73,8 +76,6 @@ public class SettingsHomepageActivity extends FragmentActivity {
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
-        
         avatarView = root.findViewById(R.id.account_avatar);
         //final AvatarViewMixin avatarViewMixin = new AvatarViewMixin(this, avatarView);
         avatarView.setImageDrawable(getCircularUserIcon(context));
@@ -139,6 +140,5 @@ public class SettingsHomepageActivity extends FragmentActivity {
     public void onResume() {
         super.onResume();
         avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
-
     }
 }
