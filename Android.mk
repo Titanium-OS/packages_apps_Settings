@@ -52,7 +52,9 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     settings-log-bridge-protos-lite \
     contextualcards \
     settings-logtags \
-    zxing-core-1.7 
+    zxing-core-1.7 \
+    okhttpcustom \
+    okio 
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES += \
     circularimageview
@@ -81,6 +83,13 @@ include $(CLEAR_VARS)
 
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     contextualcards:libs/contextualcards.aar
+include $(BUILD_MULTI_PREBUILT)
+
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
+    okhttpcustom:libs/okhttp-3.8.1.jar \
+    okio:libs/okio-1.13.0.jar
 include $(BUILD_MULTI_PREBUILT)
 
 include $(CLEAR_VARS)
