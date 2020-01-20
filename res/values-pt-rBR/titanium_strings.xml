@@ -134,4 +134,66 @@
     <string name="changelog_summary">Desde a última atualização</string>
     <string name="changelog_error">Não foi possível carregar o registo de alterações</string>
  
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Otimizar a apresentação do ecrã com base na hora do dia, e nas condições ambiente, de modo a melhorar a leitura e reduzir a fadiga ocular</string>
+    <string name="live_display_mode">Modo de apresentação</string>
+    <string name="live_display_color_temperature_title">Temperatura da cor</string>
+    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_outdoor_mode_title">Modo externo automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar o brilho e a saturação de forma automática aquando de uma intensa luz solar</string>
+    <string name="live_display_low_power_title">Reduzir consumo de energia</string>
+    <string name="live_display_low_power_summary">Ajuste a exibição do ecrã para um menor consumo de energia sem degradação</string>
+    <string name="live_display_enhance_color_title">Melhoramentos da cor</string>
+    <string name="live_display_enhance_color_summary">Melhorar a vibração das cores de tons de pele, paisagens e outras imagens</string>
+    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_color_profile_standard_title">Por defeito</string>
+    <string name="live_display_color_profile_standard_summary">Cores precisas e brancos brilhantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Cores realistas e tons de pele</string>
+    <string name="live_display_color_profile_dynamic_title">Dinâmico</string>
+    <string name="live_display_color_profile_dynamic_summary">Realçar cores e brancos brilhantes</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Cores perfeitas para reprodução de vídeos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Vermelho escuro para melhorar a visão noturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Cores perfeitas para reprodução de imagens</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Sem qualquer espécie de calibração</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">As cores adaptam-se às condições ambientais</string>
+    <string name="live_display_color_profile_reading_title">Leitura</string>
+    <string name="live_display_color_profile_reading_summary">Cores mais quentes para menor cansaço visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Cores precisas para o espaço de cores sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Cores precisas para o espaço de cores DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo de leitura</string>
+    <string name="live_display_reading_mode_summary">Modo a preto e branco para leitura extensiva</string>
+    <string name="color_calibration_title">Calibração da cor</string>
+    <string name="color_calibration_summary">Calibrar as cores do ecrã</string>
+    <string name="color_red_title">Vermelho</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Calibração de imagem</string>
+    <string name="picture_adjustment_summary">Calibrar a tonalidade, saturação, intensidade e contraste</string>
+    <string name="adj_hue_title">Tonalidade</string>
+    <string name="adj_saturation_title">Saturação</string>
+    <string name="adj_intensity_title">Intensidade</string>
+    <string name="adj_contrast_title">Contraste</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar a informação</string>
+
+    <!-- Density category -->
+    <string name="density_category">Opções de densidade</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Fechar</string>
+
 </resources>
