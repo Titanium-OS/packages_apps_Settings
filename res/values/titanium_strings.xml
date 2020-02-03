@@ -215,4 +215,10 @@
     <!-- Back gesture vibration -->
     <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture</string>
 
+    <!-- Theme Room -->
+    <string name="themeroom_title">Theme Room</string>
+    <string name="themeroom_summary">Accent-Gradient theming</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
+
 </resources>
