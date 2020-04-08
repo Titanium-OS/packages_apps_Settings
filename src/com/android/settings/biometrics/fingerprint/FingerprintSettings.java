@@ -66,7 +66,7 @@ import com.android.settingslib.widget.FooterPreference;
 import java.util.HashMap;
 import java.util.List;
 
-import com.android.internal.util.titanium.FodUtils;
+import com.android.internal.util.titanium.fod.FodUtils;
 
 /**
  * Settings screen for fingerprints
