@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2019 TitaniumOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- TitaniumOS -->
+    <string name="titanium_title" translatable="false">TitaniumOS</string>
+    <string name="titanium_about_info">Acerca</string>
+    <string name="titanium_about_summary">A nossa equipa e o nosso objetivo</string>
+    <string name="titanium_about_info_summary">TitaniumOS é uma ROM personalizada baseada no projeto Android Open Source Project da Google. A mesma foi desenvolvida tendo como foco principal a estibilidade do sistema acompanhada de funcionalidades úteis. Tudo isto sem comprometer uma experiência pura do Android.</string>
+
+    <!-- TiElements -->
+    <string name="tielements_title" translatable="false">TiElements</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reiniciar estatísticas</string>
+    <string name="battery_stats_message">O histórico de estatísticas da bateria será reiniciado</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som ao capturar ecrã</string>
+
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB pela rede</string>
+    <string name="adb_over_network_summary">Ativar a depuração TCP/IP através de interfaces de rede (redes Wi-Fi, USB). Esta definição é reposta ao reiniciar</string>
+    <string name="adb_over_network_warning">ATENÇÃO: Quando o ADB pela rede está ativo, o dispositivo fica vulnerável a intrusões em todas as redes ligadas, incluindo as redes de dados GSM!\n\nEsta funcionalidade deverá apenas ser utilizada com o dispositivo ligado a uma rede confiável.\n\nPretende mesmo ativar esta funcionalidade?</string>
+    <string name="adb_over_network_warning_title">Permitir ADB pela rede?</string>
+
+    <!-- SELinux status -->
+    <string name="selinux_status">Estado do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçado</string>
+
+    <!-- TitaniumOS Version -->
+    <string name="titanium_version">Versão da Compilação TitaniumOS</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital situado na frente do telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localize o sensor de impressão digital situado na parte esquerda do telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localize o sensor de impressão digital situado na parte direita do telefone.</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital situado na frente do dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localize o sensor de impressão digital situado na parte esquerda do dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localize o sensor de impressão digital situado na parte direita do dispositivo.</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital situado na frente do tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de impressão digital situado na parte esquerda do tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de impressão digital situado na parte direita do tablet.</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Carregamento inteligente</string>
+    <string name="smart_charging_summary">Definir o valor máximo de carregamento</string>
+    <string name="smart_charging_switch_title">Usar carregamento inteligente</string>
+    <string name="smart_charging_level_title">Nível para paragem automática</string>
+    <string name="smart_charging_resume_level_title">Nível para início automático</string>
+    <string name="smart_charging_reset_stats_title">Repor as estatísticas da bateria</string>
+    <string name="smart_charging_reset_stats_summary">Repor as estatísticas de bateria assim que atingir o nível de carregamento definido pelo utilizador</string>
+    <string name="smart_charging_footer">O carregamento inteligente permite definir o valor máximo de carregamento de modo a melhorar o tempo de vida útil da bateria</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloquear rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente assim que inserir corretamente o PIN ou a password</string>
+
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">Baralhar disposição</string>
+    <string name="unlock_scramble_pin_layout_summary">Baralhar a disposição do PIN ao desbloquear</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de RAM</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotação</string>
+    <string name="display_rotation_disabled">Desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Utilização de ecrã inteiro</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicações a ignorar o recorte no ecrã</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibração ao carregar</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Toque do telefone - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Toque do telefone - SIM 2</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Não permitir sons, ou vibração, mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sem restrições</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar os volumes de notificação &amp; toque do telefone</string>
+
+    <!-- Battery temperature -->
+    <string name="battery_temp">Temperatura da bateria</string>
+
+     <!-- TitaniumOS OTA -->
+    <string name="titanium_ota_title">Atualizações TitaniumOS</string>
+    <string name="titanium_ota_summary">Obter a última compilação disponível</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Registo de alterações</string>
+    <string name="changelog_summary">Desde a última atualização</string>
+    <string name="changelog_error">Não foi possível carregar o registo de alterações</string>
+ 
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Otimizar a apresentação do ecrã com base na hora do dia, e nas condições ambiente, de modo a melhorar a leitura e reduzir a fadiga ocular</string>
+    <string name="live_display_mode">Modo de apresentação</string>
+    <string name="live_display_color_temperature_title">Temperatura da cor</string>
+    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K Noite: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Dia</string>
+    <string name="live_display_night">Noite</string>
+    <string name="live_display_outdoor_mode_title">Modo externo automático</string>
+    <string name="live_display_outdoor_mode_summary">Aumentar o brilho e a saturação de forma automática aquando de uma intensa luz solar</string>
+    <string name="live_display_low_power_title">Reduzir consumo de energia</string>
+    <string name="live_display_low_power_summary">Ajuste a exibição do ecrã para um menor consumo de energia sem degradação</string>
+    <string name="live_display_enhance_color_title">Melhoramentos da cor</string>
+    <string name="live_display_enhance_color_summary">Melhorar a vibração das cores de tons de pele, paisagens e outras imagens</string>
+    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_color_profile_standard_title">Por defeito</string>
+    <string name="live_display_color_profile_standard_summary">Cores precisas e brancos brilhantes</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Cores realistas e tons de pele</string>
+    <string name="live_display_color_profile_dynamic_title">Dinâmico</string>
+    <string name="live_display_color_profile_dynamic_summary">Realçar cores e brancos brilhantes</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Cores perfeitas para reprodução de vídeos</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomia</string>
+    <string name="live_display_color_profile_astronomy_summary">Vermelho escuro para melhorar a visão noturna</string>
+    <string name="live_display_color_profile_photography_title">Fotografia</string>
+    <string name="live_display_color_profile_photography_summary">Cores perfeitas para reprodução de imagens</string>
+    <string name="live_display_color_profile_basic_title">Básico</string>
+    <string name="live_display_color_profile_basic_summary">Sem qualquer espécie de calibração</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
+    <string name="live_display_color_profile_adaptive_summary">As cores adaptam-se às condições ambientais</string>
+    <string name="live_display_color_profile_reading_title">Leitura</string>
+    <string name="live_display_color_profile_reading_summary">Cores mais quentes para menor cansaço visual</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Cores precisas para o espaço de cores sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Cores precisas para o espaço de cores DCI-P3</string>
+    <string name="live_display_reading_mode_title">Modo de leitura</string>
+    <string name="live_display_reading_mode_summary">Modo a preto e branco para leitura extensiva</string>
+    <string name="color_calibration_title">Calibração da cor</string>
+    <string name="color_calibration_summary">Calibrar as cores do ecrã</string>
+    <string name="color_red_title">Vermelho</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Calibração de imagem</string>
+    <string name="picture_adjustment_summary">Calibrar a tonalidade, saturação, intensidade e contraste</string>
+    <string name="adj_hue_title">Tonalidade</string>
+    <string name="adj_saturation_title">Saturação</string>
+    <string name="adj_intensity_title">Intensidade</string>
+    <string name="adj_contrast_title">Contraste</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar a informação</string>
+
+    <!-- Density category -->
+    <string name="density_category">Opções de densidade</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Fechar</string>
+
+</resources>
