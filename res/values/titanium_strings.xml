@@ -206,4 +206,10 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+
+    <!-- Battery categorization -->
+    <string name="battery_saver_category_title">Battery Saver</string>
+    <string name="smart_charging_category_title">Smart Charging</string>
+    <string name="battery_info_category_title">Battery Info</string>
+    <string name="battery_health_category_title">Battery Health</string>
 </resources>
