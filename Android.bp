@@ -64,6 +64,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "okhttpcustom",
         "okio",
+        "faceunlock_utils",
     ],
 
     libs: [
