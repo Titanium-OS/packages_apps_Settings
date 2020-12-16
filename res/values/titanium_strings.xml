@@ -215,6 +215,7 @@
     <string name="battery_health_category_title">Battery Health</string>
 
     <!-- Aggressive battery -->
+    <string name="aggressive_battery_saver_summary">Extend your battery life in critical moments when you need to make it last</string>
     <string name="aggressive_idle_title">Extended idle</string> 
     <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
     <string name="aggressive_standby_title">Aggressive standby</string>
