@@ -213,4 +213,10 @@
     <string name="smart_charging_category_title">Smart Charging</string>
     <string name="battery_info_category_title">Battery Info</string>
     <string name="battery_health_category_title">Battery Health</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_idle_title">Extended idle</string> 
+    <string name="aggressive_idle_summary">Reduce device wake ups and reduce the time required to enter idle state</string>
+    <string name="aggressive_standby_title">Aggressive standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running in background</string>
 </resources>
