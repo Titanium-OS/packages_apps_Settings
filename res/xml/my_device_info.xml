@@ -25,7 +25,9 @@
     <PreferenceScreen
         android:key="titanium_about_logo"
         android:layout="@layout/titanium_about_logo"
-        android:order="0" />
+        android:order="0"
+        android:clickable="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController" />
 
     <!--
     <com.android.settingslib.widget.LayoutPreference
