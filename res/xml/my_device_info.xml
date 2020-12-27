@@ -26,7 +26,8 @@
         android:layout="@layout/titanium_about_logo"
         android:order="0"
         android:key="titanium_about_logo"
-        android:selectable="false" />
+        android:clickable="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController" />
     <!--
     <com.android.settingslib.widget.LayoutPreference
         android:key="my_device_info_header"
