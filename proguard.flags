@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class com.titanium.tielements.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }

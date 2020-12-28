@@ -40,6 +40,14 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
+        android:key="top_level_tielements" 
+        android:title="@string/tielements_title" 
+        android:summary="@string/tielements_summary_title" 
+        android:icon="@drawable/ic_homepage_tielements" 
+        android:order="-105"
+        android:fragment="com.titanium.tielements.Elements"/>
+
+    <Preference
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
