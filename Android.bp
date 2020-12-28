@@ -57,6 +57,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "okhttpcustom",
         "okio",
+        "circularimageview"
     ],
 
     libs: [
@@ -102,4 +103,9 @@ java_import {
 java_import {
     name: "okio",
     jars: ["libs/okio-1.13.0.jar"],
+}
+
+java_import {
+    name: "circularimageview",
+    jars: ["libs/circularimageview-4.2.0.jar"],
 }
