@@ -22,6 +22,10 @@
     <string name="titanium_about_summary">Our introduction and our team</string>
     <string name="titanium_about_info_summary">TitaniumOS is a Custom ROM based on Google Android Open Source Project.This ROM developed with a major focus on system stability and useful features. All this without compromising on the pure Android experience.</string>
 
+    <!-- TiElements -->
+    <string name="tielements_title" translatable="false">TiElements</string>
+    <string name="tielements_summary_title">Add some more elements to your device</string>
+
     <!-- TitaniumOS Version -->
     <string name="titanium_version">TitaniumOS Build</string>
 

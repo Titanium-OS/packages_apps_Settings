@@ -235,6 +235,9 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // TitaniumOS additions
+    public static class TiElementsSettingsActivity extends SettingsActivity {}
+
     /**
      * Activity for MediaControlsSettings
      */
