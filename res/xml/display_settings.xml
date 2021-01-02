@@ -155,11 +155,6 @@
         android:summary="@string/tap_to_wake_summary" />
 
     <SwitchPreference
-        android:key="enable_blurs_on_windows"
-        android:title="@string/enable_blurs_on_windows_title"
-        android:summary="@string/enable_blurs_on_windows_summary" />
-
-    <SwitchPreference
         android:key="pocket_judge"
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary" />
