@@ -68,10 +68,6 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         mUserManager = context.getSystemService(UserManager.class);
 
-        Context context = getApplicationContext();
-
-        mUserManager = context.getSystemService(UserManager.class);
-
         final Toolbar toolbar = findViewById(R.id.search_action_bar);
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
